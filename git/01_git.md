@@ -51,6 +51,15 @@ Initialized empty Git repository in C:/Users/choi yeseul/Desktop/정리/.git/
 > 커밋을 위한 파일 목록(staging area)
 
 ```bash
+$ git add .  # 현재 디렉토리
+$ git add a.txt # 특정 파일
+$ git add a.txt b.txt # 여러 파일
+$ git add md-images/ # 특정 폴더 
+```
+
+
+
+```bash
 $ touch test.txt
 ```
 
@@ -75,7 +84,7 @@ $ touch test.txt
   
   ```
 
-* add 후 모습
+* `add` 후 모습
 
   ```bash
   $ git add
